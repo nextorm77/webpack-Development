@@ -74,3 +74,21 @@ dev server를 쉽게 실행하기 위해 스크립트 추가
    // 생략
 }
 ```
+
+### Using webpack-dev-middleware
+
+putput.publicPath는 파일이 http://localhost:3000에서 올바르게 제공되는지 확인하기 위해 server.js 내에서도 사용됨. 포트 번호는 나중에 지정
+
+```bash
+// webpack.config.js
+// 생략
+module.exports = {
+  // 생략
+  output: {
+    publicPath: "/",
+  },
+  // 생략
+};
+```
+
+브라우저를 실행하고 http://localhost:3000으로 이동, 웹팩 앱이 실행되고 작동하는 것을 볼 수 있음
