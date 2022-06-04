@@ -17,3 +17,19 @@ $ npm i
 ### entry point
 
 $ dist/index.html
+
+## Choosing a Development tool
+
+### node_modules 생성
+
+$ npm i
+
+### entry point
+
+$ dist/index.html
+
+### Using Watch Mode
+
+### Using webpack-dev-server
+
+###
